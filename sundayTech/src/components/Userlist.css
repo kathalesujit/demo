@@ -1,0 +1,133 @@
+.tCard {
+    background-color: #D8D8D8 !important;
+    border-radius: 8px !important;
+    padding: 10px;
+    height: 50px;
+    text-transform: capitalize;
+    color: grey;
+    text-align: left;
+    margin-bottom: 2px;
+    border-color: white;
+    -webkit-border-radius: 8px !important;
+    -moz-border-radius: 8px !important;
+    -ms-border-radius: 8px !important;
+    -o-border-radius: 8px !important;
+}
+
+.tBCard {
+    border: none;
+    border-radius: 10px !important;
+    padding: 10px;
+    text-align: left;
+    margin-top: 10px;
+    background-color: white;
+    /* box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    -webkit-border-radius: 10px !important;
+    -moz-border-radius: 10px !important;
+    -ms-border-radius: 10px !important;
+    -o-border-radius: 10px !important;
+    height: 70px;
+    cursor: pointer;
+    /* border-left: 7px solid yellow; */
+}
+
+.tHead {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.imgB {
+    border-radius: 50% !important;
+    width: 40px;
+    height: 40px;
+    background-color: #F8F6F4;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    text-align: left;
+    color: grey;
+}
+
+.para {
+    font-size: 13px;
+}
+
+.rowStyle {
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+    padding-bottom: 15px;
+    align-items: center;
+}
+
+.filterStyle {
+    font-size: 15px;
+    padding-left: 10px;
+    color: grey;
+}
+
+.searchStyle {
+    border-radius: 20px;
+
+    /* height: 25px; */
+    /* border: none;
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;  */
+    border: none;
+}
+
+.gen {
+    display: flex;
+    justify-content: space-between;
+}
+
+.datarow {
+    display: flex;
+    align-items: center;
+}
+
+.searchdiv {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 20px;
+    border: 0.5px solid black;
+    padding: 3px;
+    padding-left: 15px;
+    width: 300px;
+    height: 40px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: white;
+}
+
+.userlist {
+    background-color: #F8F6F4;
+    padding: 30px;
+
+}
+
+.body {
+    background-color: #F8F6F4;
+    overflow: hidden;
+}
+
+input:focus {
+    outline: none;
+}
+
+.addButton {
+    color: blue;
+    outline: blue !important;
+}
+
+.hideScroll {
+    overflow: hidden;
+    height: 100vh;
+}

@@ -1,0 +1,58 @@
+.register{
+    padding: 70px;
+    margin-top: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+.inputField{
+    margin-top: -10px;
+    margin-left: 150px;
+    max-width: 350px;
+    background-color:white !important;
+}
+.Form.Control{
+     background-color:white !important;
+}
+.buttonStyle{
+    margin-top: 15px;
+    width: 350px;
+    background-color: #40128B;
+    color: white;
+/* margin-left: 107px; */
+}
+.labelU{
+    margin-bottom: -10px;
+    margin-right:270px;
+    font-size: 13px;
+    background-color: white;
+}
+.labelE{
+    margin-bottom: -10px;
+    margin-right:250px;
+    font-size: 13px;
+    background-color: white;
+}
+.labelP{
+    margin-bottom: -10px;
+    margin-right:270px;
+    font-size: 13px;
+    background-color: white;
+}
+.welcome{
+    color: #1D267D;
+}
+
+.forget{
+    color: black;
+    text-decoration: none;
+    float: right;
+    font-size: 13px;
+    margin-right: 150px;
+}
+
+.errorMsg{
+    font-size: 13px;
+    display: flex;
+    margin-left: 150px;
+}

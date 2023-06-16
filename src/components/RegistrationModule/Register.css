@@ -1,0 +1,93 @@
+.bannerR {
+    width: 675px;
+    height: 625px;
+}
+
+.register {
+    width: 300px;
+    height: 100%;
+
+}
+
+.registerButton {
+    width: 300px;
+    background-color: #50247f !important;
+    margin-top: 15px;
+    border: 0px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.logoDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    height: 100px;
+    width: 250px;
+}
+
+.welcome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textPara {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divCol {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.errorMsg {
+    font-size: 13px;
+    float: right;
+    margin-bottom: 5px;
+
+}
+
+.form-label {
+    font-size: 12px;
+    position: relative;
+    background: #fff;
+    width: max-content;
+    padding-inline: 5px;
+    top: 1rem;
+    left: .5rem;
+}
+
+#labelData {
+    padding: .8rem 1rem;
+    border: 1px solid #D4D4D5;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+    .bannerR {
+        /* max-width: 600px; */
+        display: none;
+    }
+
+    .divCol {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}

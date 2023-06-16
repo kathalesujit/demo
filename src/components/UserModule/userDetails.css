@@ -1,0 +1,78 @@
+.Modallength {
+    height: 1000px !important;
+}
+
+.modal-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    background: rgba(11, 11, 11, 0.55);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    width: 100vw;
+    z-index: 100;
+    display: flex;
+    justify-content: flex-end;
+    overflow: hidden;
+}
+
+.side-panel {
+    position: absolute;
+    width: 400px;
+    height: 100%;
+    right: -400px;
+    overflow: hidden;
+    background-color: white;
+    border-top-left-radius: 30px;
+    -webkit-animation: slide 0.5s forwards;
+    -webkit-animation-delay: 0.2s;
+    animation: slide 0.5s forwards;
+    animation-delay: 0.2s;
+}
+
+@-webkit-keyframes slide {
+    100% {
+        right: 0;
+    }
+}
+
+@keyframes slide {
+    100% {
+        right: 0;
+    }
+}
+
+.imga {
+    border-radius: 50% !important;
+    width: 100px;
+    height: 100px;
+    background-color: #F8F6F4;
+}
+
+.active {
+    border-radius: 15px !important;
+    background-color: aquamarine;
+    -webkit-border-radius: 15px !important;
+    -moz-border-radius: 15px !important;
+    -ms-border-radius: 15px !important;
+    -o-border-radius: 15px !important;
+    width: 90px;
+    height: 25px;
+}
+
+.activeB {
+    margin-left: 30px;
+
+}
+
+.Info {
+    margin: 20px 20px 20px 20px;
+}
+
+.bodyUserDetails {
+    height: 100%;
+    overflow-y: hidden;
+}
